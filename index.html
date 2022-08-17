@@ -12,7 +12,7 @@
 <body>
 
   <main>
-    <div class="right">
+    <div class="left">
       <h1>Learn to code by watching others</h1>
     
       <p>
@@ -21,27 +21,39 @@
       </p>
     </div>
   
-    <div class="left">
+    <div class="right">
       <div class="freeTrial">
         <strong>Try it free 7 days</strong> then $20/mo. thereafter
       </div>
     
       <form>
-        <div class="inputBlock">
-          <input type="text" placeholder="First Name">
-          <img src="images/icon-error.svg" alt="">
+        <div class="inputBox">
+          <div class="inputBlock">
+            <input type="text" placeholder="First Name" id="Fname">
+            <img src="images/icon-error.svg" alt="">
+          </div>
+          <small>First name cannot be empty</small>
         </div>
-        <div class="inputBlock">
-          <input type="text" placeholder="Last Name">
-          <img src="images/icon-error.svg" alt="">
+        <div class="inputBox">
+          <div class="inputBlock">
+            <input type="text" placeholder="Last Name" id="Lname">
+            <img src="images/icon-error.svg" alt="">
+          </div>
+          <small>Last name cannot be empty</small>
         </div>
-        <div class="inputBlock">
-          <input type="email" placeholder="Email Address">
-          <img src="images/icon-error.svg" alt="">
+        <div class="inputBox">
+          <div class="inputBlock">
+            <input type="email" placeholder="Email Address" id="email">
+            <img src="images/icon-error.svg" alt="">
+          </div>
+          <small>Email cannot be empty</small>
         </div>
-        <div class="inputBlock">
-          <input type="password" placeholder="Password">
-          <img src="images/icon-error.svg" alt="">
+        <div class="inputBox">
+          <div class="inputBlock">
+            <input type="password" placeholder="Password" id="password">
+            <img src="images/icon-error.svg" alt="">
+          </div>
+          <small>Password name cannot be empty</small>
         </div>
       
         <button>Claim your free trial </button>
@@ -51,5 +63,6 @@
     </div>
   </main>
   
+  <script src="main.js"></script>
 </body>
 </html>
